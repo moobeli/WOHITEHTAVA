@@ -1,0 +1,48 @@
+body {
+  background-color: rgb(10, 10, 10);
+  font-family: Arial;
+  color: rgb(228, 216, 53);
+  font-size: large;
+  margin-left: 25px;
+  text-align:center
+
+}H1  {
+    font-family: Impact, Arial;
+    color: rgb(173, 26, 26);
+    font-size: 3em;
+
+  }
+H2  {
+    font-family: Impact, Arial;
+    color: rgb(228, 216, 53);
+    font-size: 1.5em;
+  }
+
+
+
+nav {
+    font-family: Impact, Arial;
+    margin: 30px;
+    background: rgb(173, 26, 26);
+    border: 5px solid rgb(228, 216, 53);
+}
+.navbar-nav {
+  display: flex;
+  justify-content: center;
+  
+  flex-grow: 1;
+  gap: 30px;
+}
+.navbar-brand {
+  margin-left: 15px;
+  color: rgb(228, 216, 53);
+  font-size: 1.5em;
+}
+
+
+@media screen and (max-width: 480px) {
+  body {
+     background-color: lightgreen;
+  }
+}
+  
